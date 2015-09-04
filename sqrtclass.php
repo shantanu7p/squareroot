@@ -24,7 +24,10 @@ class sqrtclass{
           {
             return -1;
           }
-
+         if(func_num_args() < 1)
+          {
+            return -1;
+          }
          if(preg_match('/[\'^£$%&*()}{@#~?><>,|=_+¬-]/', $temp))
           {
             return -1;
