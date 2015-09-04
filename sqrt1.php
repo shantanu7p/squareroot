@@ -72,6 +72,14 @@ else
 {
 	echo "Special character test fails\n";
 }
-
+$answer=$object->sqrtfun(1,2);
+if($answer == -1)
+{
+	 echo "\nMore than one argument test runs successfully \n";
+}
+else
+{
+	echo "More than one argument test fails\n";
+}
 ?>
 
